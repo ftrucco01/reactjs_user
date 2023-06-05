@@ -29,3 +29,22 @@ export async function get( id )
     throw error;
   }
 }
+
+export async function list() {
+  try {
+    const response = await axios.get('/user');
+    return response;
+  } catch (error) {
+    throw error;
+  }
+}
+
+export async function remove( id )
+{
+  try{
+    const response = await axios.delete(`/user/${id}`);
+    return response;
+  }catch(error){
+    throw error;
+  }
+}
