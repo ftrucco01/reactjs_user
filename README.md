@@ -21,8 +21,11 @@ cd reactjs_user
 3. Install the dependencies for both the frontend and backend:
 
 cd frontend
+
 npm install
+
 cd ../backend
+
 npm install
 
 4. Start the MongoDB service on your local machine. You can refer to the MongoDB documentation for instructions on how to start the service.
